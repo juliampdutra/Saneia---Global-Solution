@@ -62,8 +62,6 @@ A navegação usa `Navigator.push` com `MaterialPageRoute` e `Navigator.pop`. Os
 
 ## Prints das telas
 
-> Adicionar os prints na pasta `docs/prints/` com os nomes abaixo.
-
 | Splash | Onboarding | Home |
 |---|---|---|
 | ![Splash](docs/prints/splash.png) | ![Onboarding](docs/prints/onboarding.png) | ![Home](docs/prints/home.png) |
