@@ -9,6 +9,10 @@ Aplicativo mobile em **Flutter/Dart** para moradores reportarem problemas de san
 | Rebeca Berbert Barcelos | RM556683 |
 | Julia Mendes Pessoa Dutra | RM557645 |
 
+## Vídeo pitch
+
+[Assistir ao pitch no YouTube](https://www.youtube.com/watch?v=h9_t4r6XUkk)
+
 ## Tema da Global Solution
 
 **Cidades e saneamento básico.** Sem esgoto e água tratada, as cidades enfrentam mais doenças e enchentes piores, e quem mais sofre é a periferia. Hoje o morador não sabe a quem reclamar e não recebe retorno. Já a concessionária recebe reclamações soltas, sem localização nem prioridade.
@@ -153,12 +157,11 @@ lib/
 Pré-requisito: Flutter 3.x instalado.
 
 ```bash
-flutter create . --project-name saneia --platforms android,ios
 flutter pub get
 flutter run
 ```
 
-> O `flutter create .` só gera as pastas de plataforma que faltam (android, ios). Ele não sobrescreve os arquivos já existentes no projeto, como `lib/`, `pubspec.yaml` e o `AndroidManifest.xml`, que já inclui a permissão de internet.
+> O projeto já inclui as pastas de plataforma (`android`, `ios` e `web`), e o `AndroidManifest.xml` já tem a permissão de internet, então não é preciso rodar `flutter create`.
 
 Para rodar os testes:
 
